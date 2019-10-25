@@ -1,0 +1,132 @@
+body{
+
+margin: 0;
+
+padding: 0;
+
+background-color:#4775d1;
+
+	}
+
+.title{
+
+text-align: center;
+
+margin: 20px;
+
+color: white;
+
+  border-radius: 3px;
+  font-family:'Amiri', serif;
+
+
+}	
+
+.enter{
+
+direction: rtl;
+
+text-align: right;
+
+font-size: 28px;
+
+float: right;
+
+color: #00004d;
+
+margin-top: 20px;
+
+margin-right: 30px;
+
+font-family:'Amiri', serif;"
+}
+
+.container{
+
+width: 90%;
+
+margin: 30px;
+
+background-color: white;
+
+margin-left: 100px;
+
+}
+
+.names{
+
+direction: rtl;
+
+text-align: right;
+
+float: right;
+
+text-align: right;
+
+margin-top: 20px;
+
+border-bottom: 4px solid ;
+
+border-bottom-color: #00004d;
+
+color: #00004d;
+font-family:'Amiri', serif;"
+}
+
+.lab{
+
+direction: rtl;
+
+float: right;
+
+color: #4775d1;
+
+font-size: 30px;
+
+font-family:'Amiri', serif;"
+
+}
+
+input{
+
+	direction: rtl;
+	font-family:'Amiri', serif;"
+	
+
+}
+
+.input-lg {
+
+  font-size:25px;
+
+  margin-bottom : 60px;
+
+  direction: rtl;
+
+}
+
+textarea{
+
+	direction: rtl;
+	font-family:'Amiri', serif;"
+
+}
+
+.button{
+
+	margin-left: 450px;
+
+	margin-bottom: 40px;
+
+	width:150px;
+
+	font-size: 20px;
+
+	background-color:#00004d;
+
+	height: 50px;
+
+	color: white;
+
+}
+
