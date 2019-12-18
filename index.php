@@ -134,7 +134,7 @@
             }
             .fa {
                 padding: 20px;
-                font-size: 30px;
+                font-size: 20px;
                 width: 60px;
                 text-align: center;
                 text-decoration: none;
@@ -172,14 +172,34 @@
             .menu{
                 list-style-type: none;
                 float: left;
-                margin-left: 400px;
-                padding-top: 30px;
+                margin-left: 480px;
+                margin-top:80px;
+                margin-bottom:80px;
                 
             }
             .fa-google {
                background: #dd4b39;
                color: white;
             }
+           
+            .footer {
+            background-color: lightgray;
+            padding: 10px;
+            text-align: center;
+            height: 35px;
+            position: fixed;
+            
+            left: 0;
+            bottom: 0;
+            width: 100%;
+           
+            }
+            .footer p{
+            background-color: lightgray;
+            color: #4775d1;
+            font-size: 16px;
+            }
+            
         </style>
         <script>
         $(document).ready(function(){
@@ -208,7 +228,7 @@
             <!-- the menu -->
           <ul class="bar">
               <li class="title">وظيفتك <sub>عنا</sub> </li>
-              <li><a href="log.php"  class="link">تسجيل الدخول <i class='fas fa-user-circle icon'></i></a></li>
+              <li><a href="register/log.php"  class="link">تسجيل الدخول <i class='fas fa-user-circle icon'></i></a></li>
                <li><a href="#foot" class="link">تواصل معنا</a></li>  
               <li><a href="#users"  class="link link2">المستخدمون</a></li>
              <li><a href="#about" class="link link1">عن الموقع</a> </li>        
@@ -236,7 +256,7 @@
             <!-- Footer -->
             <div id="foot"></div>
           
-<footer class="page-footer font-small special-color-dark pt-4">
+<footer class="page-footer font-small special-color-dark pt-2 mt-5">
 <ul class="menu">
     
     <li ><a href="#" class="fa fa-facebook list"></a></li>
@@ -251,9 +271,16 @@
   <div class="footer-copyright text-center py-3 saved">© حقوق الطبع محفوظة 
     
   </div>-->
-  <!-- Copyright -->       
+    </footer>
+  <!-- Copyright -->  
+    <br><br><br>
+   <div class="footer">
+    <p>وظيفتك عنا </p>
+    </div> 
+  
 
-</footer>
+
+
     </div>
   
     </body>

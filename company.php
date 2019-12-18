@@ -194,7 +194,7 @@ $employee->appendChild($skills);
 
 //echo "<xmp>". $xml->saveXML() . "</xmp>";
 
-$xml->save("/home/maha/Documents/company/$comName$jobName.xml");
+$xml->save("/home/maha/Documents/company/$comName $jobName.xml");
 
  
 

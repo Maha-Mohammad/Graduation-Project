@@ -8,6 +8,9 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src='https://kit.fontawesome.com/a076d05399.js'></script>
   <link rel="stylesheet" href="style.css" type="text/css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
@@ -261,7 +264,19 @@ $skills = $xml->createElement("Skills" , htmlspecialchars($skill));
 $employee->appendChild($skills);
 
 //echo "<xmp>". $xml->saveXML() . "</xmp>";
+//$path1='/home/maha/Documents/CV/السيرة الذاتية$phone.xml' ;
 $xml->save("/home/maha/Documents/CV/السيرة الذاتية$phone.xml");
+// echo file_get_contents('/home/maha/Downloads/terrier-core-4.2/src/webapps/simple/real.jsp');
 
+     
+    
 }
-?>
+
+
+
+//header('HTTP/1.1 307 Temporary Redirect');  
+//header('Location:'/home/maha/Downloads/terrier-core-4.2/src/webapps/simple/real.jsp?'doContent='.$path1);
+   
+//exit();
+
+
