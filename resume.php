@@ -14,7 +14,8 @@
   <script src='https://kit.fontawesome.com/a076d05399.js'></script>
   <link rel="stylesheet" href="style.css" type="text/css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.33.1/sweetalert2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.33.1/sweetalert2.all.min.js"></script>
 
 
 </head>
@@ -267,11 +268,23 @@ $employee->appendChild($skills);
 //$path1='/home/maha/Documents/CV/السيرة الذاتية$phone.xml' ;
 $xml->save("/home/maha/Documents/CV/السيرة الذاتية$phone.xml");
 // echo file_get_contents('/home/maha/Downloads/terrier-core-4.2/src/webapps/simple/real.jsp');
-
-     
+    ?>
+ <script>
+    $(document).ready(function() {
+        swal({
+            title: "ٍSuccess",
+            text: "تمت الاضافة بنجاح",
+            type: "success",
+            confirmButtonColor: "green",
+            confirmButtonText: "اغلاق",
+            cancelButtonText: "Close",
+        })
+    });
+</script>
+<?php     
     
 }
-
+//header("location:register/employee.php"); 
 
 
 //header('HTTP/1.1 307 Temporary Redirect');  
@@ -279,4 +292,4 @@ $xml->save("/home/maha/Documents/CV/السيرة الذاتية$phone.xml");
    
 //exit();
 
-
+?>
